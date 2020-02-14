@@ -1,5 +1,5 @@
 
-# Generated-README
+# Final Test
 
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 [![Website naereen.github.io](https://img.shields.io/website-up-down-green-red/https/naereen.github.io.svg)](https://naereen.github.io/)
@@ -21,8 +21,8 @@
   What did you use to install your project?
   
   ## Usage
-  
-  (Provide photo of)
+
+  ![](usage.gif)
   
   ## License
   
@@ -132,8 +132,8 @@
   
   ## Questions
 
-  What is your name? Hannah Joy Fuentes
+  What is your name? Hannah
   
   What is your GitHub username? [HanFue282](https://github.com/HanFue282)
   
-  What is your email for your GitHub account? [hannah.joy1143@gmail.com](https://mail.google.com/mail/u/0/#inbox?compose=new) 
+  What is your email for your GitHub account? [hannah.joy1143@gmail.com](hannah.joy1143@gmail.com) 

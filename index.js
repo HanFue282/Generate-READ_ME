@@ -51,8 +51,8 @@ async function getInfo() {
   What did you use to install your project?
   
   ## Usage
-  
-  (Provide photo of)
+
+  ![](usage.gif)
   
   ## License
   
@@ -166,7 +166,7 @@ async function getInfo() {
   
   What is your GitHub username? [${gitHub}](https://github.com/${gitHub})
   
-  What is your email for your GitHub account? [${email}](https://mail.google.com/mail/u/0/#inbox?compose=new) `
+  What is your email for your GitHub account? [${email}](${email}) `
     }
     await writeFileAsync(
          "README.md",
