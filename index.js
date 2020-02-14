@@ -9,23 +9,38 @@ getInfo();
 async function getInfo() {
     try{
         const { name } = await inquirer.prompt({
+            type: "input",
             message: "What is your name?",
             name: "name"
         });
         const { gitHub } = await inquirer.prompt({
+            type: "input",
             message: "What's your GitHub username?",
             name: "gitHub"
         });
+        const { license } = await inquirer.prompt({
+            type: "checkbox",
+            message: "Which license do you prefer?",
+            name: "license",
+            choices: [
+                "MIT License",
+                "Apache License 2.0",
+                "GNU AGPLv3",
+                "GNU GPLv3"
+            ]
+        })
         const { email } = await inquirer.prompt({
+            type: "input",
             message: "What is your email for GitHub?",
             name: "email"
         });
         const { title } = await inquirer.prompt({
+            type: "input",
             message: "What would you like the title of your README.md?",
             name: "title"
         });
 
-        console.log(name, gitHub, email, title);
+        console.log(name, gitHub, license, email, title);
 
     function readMeContent(){
     return `
@@ -56,7 +71,7 @@ async function getInfo() {
   
   ## License
   
-  (Ask teacher about license)
+  ${license}
   
   ## Credits
   
@@ -166,7 +181,7 @@ async function getInfo() {
   
   What is your GitHub username? [${gitHub}](https://github.com/${gitHub})
   
-  What is your email for your GitHub account? [${email}](${email}) `
+  What is your email for your GitHub account? ${email}`
     }
     await writeFileAsync(
          "README.md",
