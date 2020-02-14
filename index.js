@@ -23,10 +23,10 @@ async function getInfo() {
             message: "Which license do you prefer?",
             name: "license",
             choices: [
-                "MIT License",
-                "Apache License 2.0",
-                "GNU AGPLv3",
-                "GNU GPLv3"
+                "[MIT License](https://choosealicense.com/licenses/mit/)",
+                "[Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)",
+                "[GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)",
+                "[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)"
             ]
         })
         const { email } = await inquirer.prompt({

@@ -1,5 +1,5 @@
 
-# Final Test
+# Testing
 
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 [![Website naereen.github.io](https://img.shields.io/website-up-down-green-red/https/naereen.github.io.svg)](https://naereen.github.io/)
@@ -26,7 +26,7 @@
   
   ## License
   
-  (Ask teacher about license)
+  [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)
   
   ## Credits
   
@@ -136,4 +136,4 @@
   
   What is your GitHub username? [HanFue282](https://github.com/HanFue282)
   
-  What is your email for your GitHub account? [hannah.joy1143@gmail.com](hannah.joy1143@gmail.com) 
+  What is your email for your GitHub account? hannah.joy1143@gmail.com
